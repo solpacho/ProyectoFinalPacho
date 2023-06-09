@@ -1,7 +1,6 @@
 body {
     background: rgb(238, 174, 202);
     background: radial-gradient(circle, rgba(238, 174, 202, 1) 72%, rgba(148, 187, 233, 1) 100%);
-
     header {
         h1 {
             position: relative;
@@ -11,18 +10,13 @@ body {
             padding: .5rem;
             font-size: 3rem;
             color: rgb(41, 48, 41);
-            /*     background: rgb(238,174,202); */
-
             background: rgba(238, 174, 202, 1);
         }
     }
 }
-
 nav {
-
     padding: .5rem;
     text-decoration: none;
-
     .navbar {
         list-style-type: none;
         text-decoration: none;
@@ -36,14 +30,12 @@ nav {
         font-size: 100%;
         a:hover { color: black;
             text-decoration: none
-        }}
-
-
+        }
+    }
             ul {
                 list-style-type: none;
                 text-decoration: none;
                 transition: 1.5s;
-
                 li {
                     padding: .5rem;
                     /* background-color: bisque; */
@@ -55,9 +47,6 @@ nav {
                 }
             }
         }
-    
-    
-
 .TitleContainer {
     position: relative;
     display: flex;
