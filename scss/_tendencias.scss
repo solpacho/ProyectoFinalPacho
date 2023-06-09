@@ -1,0 +1,100 @@
+body {
+    header {
+        h1 {
+            margin: 1rem 0;
+            padding: 1rem;
+            font-size: 3rem;
+            color: rgb(41, 48, 41);
+            /*     background: rgb(238,174,202); */
+            background: rgba(238, 174, 202, 1);
+        }
+    }
+}
+
+.container {
+    .item1 {
+        background: rgba(238, 174, 202, 1);
+        padding: .5rem;
+        display: grid;
+        align-items: center;
+        flex-direction: column;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: min-content min-content;
+        grid-template-areas:
+            "titulo    titulo"
+            "img3      img3"
+            "img4      img4"
+            "img5      img5"
+            "footer    footer";
+        width: 100%;
+        margin: 2% auto;
+    .img3 {
+        width: 70%;
+        display: flex;
+        display: inline-block;
+        /*     color: white; */
+        font-weight: 600;
+        padding: 4rem;
+        transition: 1.5s;
+
+        &:hover {
+            background-color: rgb(128, 229, 224)
+            ;
+            padding: 2rem;
+            transform: scale(1.1);
+        }
+    }
+}
+}
+.container {
+    .img4 {
+        width: 100%;
+        display: flex;
+        display: inline-block;
+        /*     color: white; */
+        font-weight: 600;
+        padding: 4rem;
+        transition: 1.5s;
+
+        &:hover {
+            background-color: rgb(128, 229, 224)
+            ;
+            padding: 2rem;
+            transform: scale(1.1);
+        }
+    }
+}
+
+.container {
+    .img5 {
+        width: 100%;
+        display: flex;
+        display: inline-block;
+        /*     color: white; */
+        font-weight: 600;
+        padding: 4rem;
+        transition: 1.5s;
+
+        &:hover {
+            background-color: rgb(128, 229, 224)
+            ;
+            padding: 2rem;
+            transform: scale(1.1);
+        }
+    }
+}
+
+
+div {
+    h3 {
+        font-family: 'Roboto Mono', monospace;
+        color: black;
+        font-size: 100%;
+        margin-bottom: 3rem;
+        line-height: 1.5;
+        text-align: center;
+        display: inline-block;
+        position:relative;
+    }
+}
+
