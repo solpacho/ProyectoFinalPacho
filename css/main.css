@@ -102,6 +102,9 @@
     background: rgb(238, 174, 202);
     background: radial-gradient(circle, rgb(238, 174, 202) 72%, rgb(148, 187, 233) 100%);
   }
+  body main div .imgbootstrap {
+    width: 60%;
+  }
   h1 {
     text-align: center;
     -webkit-box-pack: center;
