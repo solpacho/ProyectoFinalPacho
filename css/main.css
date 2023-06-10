@@ -128,6 +128,7 @@
   .item1 {
     grid-template-areas: "titulo" "img3" "img4" "img5" "footer";
     width: 100%;
+    grid-template-columns: 1fr;
   }
 }
 body {
