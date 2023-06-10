@@ -26,11 +26,11 @@ body {
         grid-template-columns: 50% 50%;
         grid-template-rows: min-content min-content;
         grid-template-areas:
-            "titulo    titulo"
-            "img3      img3"
-            "img4      img4"
-            "img5      img5"
-            "footer    footer";
+            "titulo"
+            "img5"
+            "img5"
+            "img5"
+            "footer";
         width: 50%;
         margin: 2% auto;
         h3 {

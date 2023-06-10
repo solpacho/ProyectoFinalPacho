@@ -126,7 +126,7 @@
         flex-wrap: wrap;
   }
   .item1 {
-    grid-template-areas: "titulo" "img3" "img4" "img5" "footer";
+    grid-template-areas: "titulo" "img5" "img5" "img5" "footer";
     width: 100%;
     grid-template-columns: 1fr;
   }
@@ -377,7 +377,7 @@ body header h1 {
   grid-template-columns: 50% 50%;
   grid-template-rows: -webkit-min-content -webkit-min-content;
   grid-template-rows: min-content min-content;
-  grid-template-areas: "titulo    titulo" "img3      img3" "img4      img4" "img5      img5" "footer    footer";
+  grid-template-areas: "titulo" "img5" "img5" "img5" "footer";
   width: 50%;
   margin: 2% auto;
 }
