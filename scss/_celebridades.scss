@@ -25,12 +25,6 @@ body {
         flex-direction: column;
         grid-template-columns: 50% 50%;
         grid-template-rows: min-content min-content;
-        grid-template-areas:
-            "titulo"
-            "img3"
-            "img4"
-            "img5"
-            "footer";
         width: 50%;
         margin: 2% auto;
         h3 {
@@ -54,7 +48,7 @@ body {
             display: flex;
             display: inline-block;
             font-weight: 600;
-            padding: 4rem;
+            padding: 1rem;
             transition: 1.5s;
             &:hover {
                 background-color: rgb(128, 229, 224);
