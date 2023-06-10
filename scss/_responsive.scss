@@ -4,7 +4,7 @@
 /* Desktop*/
 @media screen and (max-width: 1200px) {
     body {
-        overflow: hidden;
+        overflow-y: scroll;
         background: rgb(238, 174, 202);
         background: radial-gradient(circle, rgba(238, 174, 202, 1) 72%, rgba(148, 187, 233, 1) 100%);
     }
@@ -22,11 +22,24 @@
         align-items: center;
         flex-wrap: wrap;
     }
+    .img3 {
+        width: 70%;
+    }
+    .img4 .img5 {
+        width: 100%;
+    }
+    .container1 {
+        width: 80%;
+        .item1 {
+            width: 90%;
+            .img5 {
+                width: 100%;
+        }}}
 }
 /*Tablet*/
 @media screen and (max-width: 780px) {
     body {
-        overflow: hidden;
+        overflow-y: scroll;
     background: rgb(238, 174, 202);
         background: radial-gradient(circle, rgba(238, 174, 202, 1) 72%, rgba(148, 187, 233, 1) 100%);
     }
@@ -44,11 +57,24 @@
         align-items: center;
         flex-wrap: wrap;
     }
+    .img3 {
+        width: 70%;
+    }
+    .img4 .img5 {
+        width: 100%;
+    }
+    .container1 {
+        width: 80%;
+        .item1 {
+            width: 90%;
+            .img5 {
+                width: 100%;
+        }}}
 }
 /*Mobile*/
 @media screen and (max-width: 480px) {
     body {
-        overflow: hidden;
+        overflow-y: scroll;
         background: rgb(238, 174, 202);
         background: radial-gradient(circle, rgba(238, 174, 202, 1) 72%, rgba(148, 187, 233, 1) 100%);
     }
@@ -66,4 +92,17 @@
         align-items: center;
         flex-wrap: wrap;
     }
+    .img3 {
+        width: 70%;
+    }
+    .img4 .img5 {
+        width: 100%;
+    }
+    .container1 {
+        width: 80%;
+        .item1 {
+            width: 90%;
+            .img5 {
+                width: 100%;
+        }}}
 }
